@@ -41,6 +41,7 @@ var orm = {
       cb(result);
     });
   },
+  
   create: function (table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 
@@ -79,7 +80,7 @@ var orm = {
       cb(result);
     });
   },
-  
+
   delete: function (table, condition, cb) {
     var queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
