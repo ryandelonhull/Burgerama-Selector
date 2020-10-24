@@ -21,16 +21,16 @@ Create a Burger logger with MySQL, Node, Express, Handlebars, and a homemade ORM
 
 
 ## ScreenShot
-
+![Burgers in action](./public/assets/img/Burger-in-use.png)
 
 
 ## Code Snippet
-
+![code snippet](./public/assets/img/BurgerScreenShot2.png)
 
 
 ## Deployed Links
-
-
+- https://thawing-beyond-08187.herokuapp.com/
+-  https://ryandelonhull.github.io/node-express-handlebars/
 
 ## Author 
 
