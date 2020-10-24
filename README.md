@@ -35,9 +35,13 @@ Create a Burger logger with MySQL, Node, Express, Handlebars, and a homemade ORM
 ## Author 
 
 ### Ry Hull
+
+#### GitHub Repo
  - https://github.com/ryandelonhull
+#### Linked In
  - https://linkedin.com/in/ryan-hull-94003144
- - 
+#### Portfolio
+ - https://ryandelonhull.github.io/Bootstrap-Portfolio/
 
 
 
