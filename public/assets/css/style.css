@@ -2,19 +2,24 @@ li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
+    width: fit-content;
   }
   
   .label {
     font-weight: bold;
   }
   
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
   .form-group {
     margin-bottom: 5px;
   }
-  
+
+body {
+    background-image: url("/assets/img/burgerTime.png");
+    color: hsl(337, 89%, 42%);
+}
+
+input.invalid {
+    border-color: red;
+    border-width: 2;
+    border-style: solid;
+}

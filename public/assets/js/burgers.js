@@ -16,7 +16,13 @@ $(function() {
         }
       );
     });
-  
+    function validate(burger){
+        if (burger.burger_name && burger.burger_name.length > 0) {
+            return true;
+        }
+        $("#burger_name").addClass("invalid");
+        return false;
+    }
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
@@ -25,7 +31,9 @@ $(function() {
         burger_name: $("#burger_name").val().trim(),
         devoured: false
       };
-  
+      if (!validate(newBurger)) {
+          return;
+      };
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",

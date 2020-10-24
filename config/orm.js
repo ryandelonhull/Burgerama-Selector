@@ -1,4 +1,4 @@
-var connection = require("../config/connection.js");
+var connection = require("./connection.js");
 
 function printQuestionMarks(num) {
   var arr = [];
@@ -41,7 +41,7 @@ var orm = {
       cb(result);
     });
   },
-  
+
   create: function (table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 
